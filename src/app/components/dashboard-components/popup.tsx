@@ -64,7 +64,7 @@ const Popup = (props:any) => {
     ]
 
     return (
-        <section className='!fixed flex w-full h-full bg-black/[0.6] items-center justify-center'>
+        <section className='fixed flex w-full h-full bg-black/[0.6] items-center justify-center z-[99999]'>
         
             <div className='flex flex-col w-[544px] h-auto rounded-[18px] bg-[#FFFAFF]'>
                 <div className='flex flex-row justify-between px-[24px] py-[16px]'>

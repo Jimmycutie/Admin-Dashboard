@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Cards = (props:any) => {
 
   return (
-    <div key={props.card.id} className="flex flex-col lg:h-[130px] lg:w-[333px] min-[320px]:max-lg:h-[160px] min-[320px]:max-lg:w-[47%] bg-[#FFFFFF] px-[25px] py-[20px] rounded-[20px] border-2 shadow-xl justify-between">
+    <div key={props.card.id} className="flex flex-col lg:h-[130px] lg:w-[23.3%] min-w-[300px] min-[320px]:max-lg:h-[160px] min-[320px]:max-lg:w-[47%] bg-[#FFFFFF] px-[25px] py-[20px] rounded-[20px] border-2 shadow-xl justify-between">
       <div className='w-[30px] h-[30px] rounded-full p-[6px]' style={{backgroundColor: `${props.card.color}`}}>
         <Image 
           src={props.card.icon} 
